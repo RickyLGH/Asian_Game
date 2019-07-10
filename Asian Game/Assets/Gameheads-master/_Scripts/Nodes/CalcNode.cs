@@ -154,4 +154,16 @@ public class CalcNode : BaseInputNode
 
         return retVal;
     }
+
+    public override void NodeDeleted(BaseNode node)
+    {
+        if (node.Equals(input1))
+        {
+            input1 = null;
+        }
+        if (node.Equals(input2))
+        {
+            input2 = null;
+        }
+    }
 }
