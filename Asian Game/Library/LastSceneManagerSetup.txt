@@ -1,5 +1,4 @@
 sceneSetups:
-- path: Assets/Gameheads-master/_Scenes/lvl1.unity
+- path: Assets/Scenes/Minigame Sample.unity
   isLoaded: 1
   isActive: 1
-  isSubScene: 0
